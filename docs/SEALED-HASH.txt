@@ -1,0 +1,8 @@
+﻿{
+    "path":  "C:\\Users\\shubh\\ai-memory-system\\eval\\sealed\\sealed_set.jsonl",
+    "rows":  80,
+    "bytes":  28061,
+    "sha256":  "50CB1F509AEDDFDA4F69DE29A7300A14F26FA8B06733510F41BDF426E1EF5C0A",
+    "read_only":  true,
+    "contents_opened":  false
+}

@@ -1,0 +1,27 @@
+.venv/
+_dml_test/
+_modeltest/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.hypothesis/
+.deepeval/
+__pycache__/
+*.pyc
+*.log
+models/
+data/*.db
+data/*.db-*
+eval/sealed/sealed_set.jsonl
+work/*
+!work/r2_tools/
+ops/watchdog.csv
+ops/watchdog.state
+ops/watchdog.pid
+ops/*.bak*
+.env
+
+# keepalive stderr logs and scratch
+codex-keepalive-*.log
+codex-keepalive-*.log.err
+_golden_old_tmp.jsonl

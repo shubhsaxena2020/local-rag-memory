@@ -1,0 +1,114 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "src_calculator_calculator",
+      "label": "Calculator",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "Calculator",
+      "file_type": "code",
+      "norm_label": "calculator",
+      "source_file": "src/calculator.py",
+      "source_location": "L4"
+    },
+    {
+      "id": "src_calculator_add",
+      "label": "add()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "calculator.py",
+      "file_type": "code",
+      "norm_label": "add()",
+      "source_file": "src/calculator.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_calculator_calculator_add",
+      "label": ".add()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "Calculator",
+      "file_type": "code",
+      "norm_label": ".add()",
+      "source_file": "src/calculator.py",
+      "source_location": "L8"
+    },
+    {
+      "id": "src_calculator_calculator_init",
+      "label": ".__init__()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "Calculator",
+      "file_type": "code",
+      "norm_label": ".__init__()",
+      "source_file": "src/calculator.py",
+      "source_location": "L5"
+    },
+    {
+      "id": "src_calculator",
+      "label": "calculator.py",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "calculator.py",
+      "file_type": "code",
+      "norm_label": "calculator.py",
+      "source_file": "src/calculator.py",
+      "source_location": "L1"
+    }
+  ],
+  "links": [
+    {
+      "source": "src_calculator",
+      "target": "src_calculator_add",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/calculator.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_calculator",
+      "target": "src_calculator_calculator",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/calculator.py",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_calculator_calculator",
+      "target": "src_calculator_calculator_init",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/calculator.py",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_calculator_calculator",
+      "target": "src_calculator_calculator_add",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/calculator.py",
+      "source_location": "L8",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

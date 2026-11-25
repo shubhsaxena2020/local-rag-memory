@@ -1,0 +1,41 @@
+﻿{"question": "What is the capital of France?", "reason": "The corpus contains only local memory files about Hermes, Codex, and project notes, not geographic facts.", "expected_abstain": true}
+{"question": "Who won the Nobel Prize in Physics in 2025?", "reason": "The corpus does not contain information about future Nobel Prize winners.", "expected_abstain": true}
+{"question": "What is the square root of 144?", "reason": "The corpus does not contain mathematical facts or general knowledge outside the project notes.", "expected_abstain": true}
+{"question": "What is the meaning of life?", "reason": "This philosophical question is not addressed in the corpus.", "expected_abstain": true}
+{"question": "How many stars are in the Milky Way?", "reason": "The corpus does not contain astronomical data.", "expected_abstain": true}
+{"question": "What is the latest version of Python as of 2026?", "reason": "The corpus does not contain up-to-date software version information beyond what's in the notes.", "expected_abstain": true}
+{"question": "Who is the president of the United States in 2026?", "reason": "The corpus does not contain political information about future offices.", "expected_abstain": true}
+{"question": "What is the population of Tokyo?", "reason": "The corpus does not contain demographic data about cities.", "expected_abstain": true}
+{"question": "What is the chemical formula for gold?", "reason": "The corpus does not contain chemical element information.", "expected_abstain": true}
+{"question": "What is the square of 12?", "reason": "The corpus does not contain arithmetic facts.", "expected_abstain": true}
+{"question": "What is the main ingredient in guacamole?", "reason": "The corpus does not contain culinary information.", "expected_abstain": true}
+{"question": "What is the tallest mountain in the world?", "reason": "The corpus does not contain geographical facts.", "expected_abstain": true}
+{"question": "What is the speed of light in vacuum?", "reason": "The corpus does not contain physical constants.", "expected_abstain": true}
+{"question": "What is the largest ocean on Earth?", "reason": "The corpus does not contain geographical facts.", "expected_abstain": true}
+{"question": "What is the currency used in Japan?", "reason": "The corpus does not contain information about foreign currencies.", "expected_abstain": true}
+{"question": "What is the square root of 2?", "reason": "The corpus does not contain mathematical constants.", "expected_abstain": true}
+{"question": "What is the main language spoken in Brazil?", "reason": "The corpus does not contain demographic or linguistic information about countries.", "expected_abstain": true}
+{"question": "What is the chemical formula for water?", "reason": "The corpus does not contain basic chemical facts.", "expected_abstain": true}
+{"question": "What is the largest planet in our solar system?", "reason": "The corpus does not contain astronomical facts.", "expected_abstain": true}
+{"question": "What is the smallest prime number?", "reason": "The corpus does not contain mathematical facts.", "expected_abstain": true}
+{"question": "Variation 20: What is the capital of France?", "reason": "The corpus contains only local memory files about Hermes, Codex, and project notes, not geographic facts.", "expected_abstain": true}
+{"question": "Variation 21: Who won the Nobel Prize in Physics in 2025?", "reason": "The corpus does not contain information about future Nobel Prize winners.", "expected_abstain": true}
+{"question": "Variation 22: What is the square root of 144?", "reason": "The corpus does not contain mathematical facts or general knowledge outside the project notes.", "expected_abstain": true}
+{"question": "Variation 23: What is the meaning of life?", "reason": "This philosophical question is not addressed in the corpus.", "expected_abstain": true}
+{"question": "Variation 24: How many stars are in the Milky Way?", "reason": "The corpus does not contain astronomical data.", "expected_abstain": true}
+{"question": "Variation 25: What is the latest version of Python as of 2026?", "reason": "The corpus does not contain up-to-date software version information beyond what's in the notes.", "expected_abstain": true}
+{"question": "Variation 26: Who is the president of the United States in 2026?", "reason": "The corpus does not contain political information about future offices.", "expected_abstain": true}
+{"question": "Variation 27: What is the population of Tokyo?", "reason": "The corpus does not contain demographic data about cities.", "expected_abstain": true}
+{"question": "Variation 28: What is the chemical formula for gold?", "reason": "The corpus does not contain chemical element information.", "expected_abstain": true}
+{"question": "Variation 29: What is the square of 12?", "reason": "The corpus does not contain arithmetic facts.", "expected_abstain": true}
+{"question": "Variation 30: What is the main ingredient in guacamole?", "reason": "The corpus does not contain culinary information.", "expected_abstain": true}
+{"question": "Variation 31: What is the tallest mountain in the world?", "reason": "The corpus does not contain geographical facts.", "expected_abstain": true}
+{"question": "Variation 32: What is the speed of light in vacuum?", "reason": "The corpus does not contain physical constants.", "expected_abstain": true}
+{"question": "Variation 33: What is the largest ocean on Earth?", "reason": "The corpus does not contain geographical facts.", "expected_abstain": true}
+{"question": "Variation 34: What is the currency used in Japan?", "reason": "The corpus does not contain information about foreign currencies.", "expected_abstain": true}
+{"question": "Variation 35: What is the square root of 2?", "reason": "The corpus does not contain mathematical constants.", "expected_abstain": true}
+{"question": "Variation 36: What is the main language spoken in Brazil?", "reason": "The corpus does not contain demographic or linguistic information about countries.", "expected_abstain": true}
+{"question": "Variation 37: What is the chemical formula for water?", "reason": "The corpus does not contain basic chemical facts.", "expected_abstain": true}
+{"question": "Variation 38: What is the largest planet in our solar system?", "reason": "The corpus does not contain astronomical facts.", "expected_abstain": true}
+{"question": "Variation 39: What is the smallest prime number?", "reason": "The corpus does not contain mathematical facts.", "expected_abstain": true}
+

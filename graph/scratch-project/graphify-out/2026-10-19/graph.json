@@ -1,0 +1,44 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "src_calculator_add",
+      "label": "add()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "calculator.py",
+      "file_type": "code",
+      "norm_label": "add()",
+      "source_file": "src/calculator.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_calculator",
+      "label": "calculator.py",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "calculator.py",
+      "file_type": "code",
+      "norm_label": "calculator.py",
+      "source_file": "src/calculator.py",
+      "source_location": "L1"
+    }
+  ],
+  "links": [
+    {
+      "source": "src_calculator",
+      "target": "src_calculator_add",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/calculator.py",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

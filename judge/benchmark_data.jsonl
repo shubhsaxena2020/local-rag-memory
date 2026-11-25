@@ -1,0 +1,83 @@
+{"id": 1, "fact1": "The capital of France is Paris.", "fact2": "The official language of France is French.", "label": 0, "category": "compatible additions", "subtype": "different_attribute"}
+{"id": 2, "fact1": "Priya is allergic to peanuts.", "fact2": "Priya is not allergic to peanuts.", "label": 1, "category": "same fact update (contradiction/supersede)", "subtype": "negation"}
+{"id": 3, "fact1": "Marco has a valid driving licence.", "fact2": "Scratch that: disregard the earlier note about Marco's driving licence.", "label": 2, "category": "retract", "subtype": "withdrawal"}
+{"id": 4, "fact1": "Alice's laptop has 16 GB of RAM.", "fact2": "Bob's laptop has 32 GB of RAM.", "label": 3, "category": "unrelated entities", "subtype": "different_entity_same_attribute"}
+{"id": 5, "fact1": "In 2019, Marco lived in Madrid.", "fact2": "In 2023, Marco lived in Lisbon.", "label": 4, "category": "temporal change", "subtype": "explicit_time_scopes"}
+{"id": 6, "fact1": "The capital of France is Paris.", "fact2": "Paris is the capital city of France.", "label": 6, "category": "paraphrase (not a contradiction)", "subtype": "reworded"}
+{"id": 7, "fact1": "The database server has 16 GB of RAM.", "fact2": "The database server has 512 GB of disk storage.", "label": 0, "category": "compatible additions", "subtype": "different_attribute"}
+{"id": 8, "fact1": "The staging server is publicly accessible.", "fact2": "The staging server is not publicly accessible.", "label": 1, "category": "same fact update (contradiction/supersede)", "subtype": "negation"}
+{"id": 9, "fact1": "The staging server is publicly accessible.", "fact2": "Retraction: the earlier claim that the staging server is publicly accessible was a mistake.", "label": 2, "category": "retract", "subtype": "withdrawal"}
+{"id": 10, "fact1": "The staging server runs Ubuntu 22.04.", "fact2": "The build server runs Debian 12.", "label": 3, "category": "unrelated entities", "subtype": "different_entity_same_attribute"}
+{"id": 11, "fact1": "Until March 2022, the API ran on port 8000.", "fact2": "Since April 2022, the API has run on port 9000.", "label": 4, "category": "temporal change", "subtype": "explicit_time_scopes"}
+{"id": 12, "fact1": "The request timeout is 30 seconds.", "fact2": "Requests time out after 30 seconds.", "label": 6, "category": "paraphrase (not a contradiction)", "subtype": "reworded"}
+{"id": 13, "fact1": "Priya is allergic to peanuts.", "fact2": "Priya works as a nurse.", "label": 0, "category": "compatible additions", "subtype": "different_attribute"}
+{"id": 14, "fact1": "Marco has a valid driving licence.", "fact2": "Marco does not have a valid driving licence.", "label": 1, "category": "same fact update (contradiction/supersede)", "subtype": "negation"}
+{"id": 15, "fact1": "Tom's monthly rent is $1,200.", "fact2": "Please forget what I said about Tom's rent; I made that up.", "label": 2, "category": "retract", "subtype": "withdrawal"}
+{"id": 16, "fact1": "Mount Everest is 8,848 meters tall.", "fact2": "Mount Kilimanjaro is 5,895 meters tall.", "label": 3, "category": "unrelated entities", "subtype": "different_entity_same_attribute"}
+{"id": 17, "fact1": "From 2015 to 2018, Dana worked at Initech.", "fact2": "From 2019 to 2024, Dana worked at Globex.", "label": 4, "category": "temporal change", "subtype": "explicit_time_scopes"}
+{"id": 18, "fact1": "Priya is allergic to peanuts.", "fact2": "Priya has a peanut allergy.", "label": 6, "category": "paraphrase (not a contradiction)", "subtype": "reworded"}
+{"id": 19, "fact1": "Marco lives in Lisbon.", "fact2": "Marco speaks Portuguese and English.", "label": 0, "category": "compatible additions", "subtype": "different_attribute"}
+{"id": 20, "fact1": "Lena uses Windows as her main operating system.", "fact2": "Lena does not use Windows as her main operating system.", "label": 1, "category": "same fact update (contradiction/supersede)", "subtype": "negation"}
+{"id": 21, "fact1": "Dana's manager is Carlos.", "fact2": "Disregard the note that Carlos is Dana's manager; it was an error.", "label": 2, "category": "retract", "subtype": "withdrawal"}
+{"id": 22, "fact1": "The capital of France is Paris.", "fact2": "The capital of Japan is Tokyo.", "label": 3, "category": "unrelated entities", "subtype": "different_entity_same_attribute"}
+{"id": 23, "fact1": "In 2020, the team had 5 engineers.", "fact2": "In 2024, the team had 12 engineers.", "label": 4, "category": "temporal change", "subtype": "explicit_time_scopes"}
+{"id": 24, "fact1": "Tom's monthly rent is $1,200.", "fact2": "Tom pays $1,200 in rent every month.", "label": 6, "category": "paraphrase (not a contradiction)", "subtype": "reworded"}
+{"id": 25, "fact1": "The staging server runs Ubuntu 22.04.", "fact2": "The staging server is located in the Frankfurt region.", "label": 0, "category": "compatible additions", "subtype": "different_attribute"}
+{"id": 26, "fact1": "The API requires authentication.", "fact2": "The API does not require authentication.", "label": 1, "category": "same fact update (contradiction/supersede)", "subtype": "negation"}
+{"id": 27, "fact1": "Lena uses Windows as her main operating system.", "fact2": "Withdraw the statement that Lena uses Windows; it was incorrect.", "label": 2, "category": "retract", "subtype": "withdrawal"}
+{"id": 28, "fact1": "Tom's monthly rent is $1,200.", "fact2": "Anna's monthly rent is $950.", "label": 3, "category": "unrelated entities", "subtype": "different_entity_same_attribute"}
+{"id": 29, "fact1": "In 2023, Tom's monthly rent was $1,000.", "fact2": "In 2025, Tom's monthly rent is $1,200.", "label": 4, "category": "temporal change", "subtype": "explicit_time_scopes"}
+{"id": 30, "fact1": "Dana's manager is Carlos.", "fact2": "Dana reports to Carlos.", "label": 6, "category": "paraphrase (not a contradiction)", "subtype": "reworded"}
+{"id": 31, "fact1": "The API requires authentication.", "fact2": "The API is rate limited to 100 requests per minute.", "label": 0, "category": "compatible additions", "subtype": "different_attribute"}
+{"id": 32, "fact1": "Ravi is vegetarian.", "fact2": "Ravi is not vegetarian.", "label": 1, "category": "same fact update (contradiction/supersede)", "subtype": "negation"}
+{"id": 33, "fact1": "The team has 8 engineers.", "fact2": "Forget the engineer headcount I gave you; it was a guess and should not be trusted.", "label": 2, "category": "retract", "subtype": "withdrawal"}
+{"id": 34, "fact1": "The Treaty of Versailles was signed in 1919.", "fact2": "The Treaty of Tordesillas was signed in 1494.", "label": 3, "category": "unrelated entities", "subtype": "different_entity_same_attribute"}
+{"id": 35, "fact1": "The capital of Japan was Kyoto until 1868.", "fact2": "The capital of Japan is Tokyo since 1868.", "label": 4, "category": "temporal change", "subtype": "explicit_time_scopes"}
+{"id": 36, "fact1": "The API requires authentication.", "fact2": "You must authenticate to use the API.", "label": 6, "category": "paraphrase (not a contradiction)", "subtype": "reworded"}
+{"id": 37, "fact1": "Water boils at 100\u00b0C at sea level.", "fact2": "Water freezes at 0\u00b0C at sea level.", "label": 0, "category": "compatible additions", "subtype": "different_attribute"}
+{"id": 38, "fact1": "The project deadline is 14 March.", "fact2": "The project deadline is 28 March.", "label": 1, "category": "same fact update (contradiction/supersede)", "subtype": "numeric"}
+{"id": 39, "fact1": "Anna's flight departs at 9:30 AM.", "fact2": "Please delete the note about Anna's flight departure time; it was entered by mistake.", "label": 2, "category": "retract", "subtype": "withdrawal"}
+{"id": 40, "fact1": "The speed of light is 299,792,458 m/s.", "fact2": "The speed of sound is 343 m/s.", "label": 3, "category": "unrelated entities", "subtype": "different_entity_same_attribute"}
+{"id": 41, "fact1": "Before 2021, the project's primary language was JavaScript.", "fact2": "Since 2021, the project's primary language has been TypeScript.", "label": 4, "category": "temporal change", "subtype": "explicit_time_scopes"}
+{"id": 42, "fact1": "Anna's flight departs at 9:30 AM.", "fact2": "Anna's flight leaves at 09:30 in the morning.", "label": 6, "category": "paraphrase (not a contradiction)", "subtype": "reworded"}
+{"id": 43, "fact1": "Tom's monthly rent is $1,200.", "fact2": "Tom's lease ends in August.", "label": 0, "category": "compatible additions", "subtype": "different_attribute"}
+{"id": 44, "fact1": "Anna's flight departs at 9:30 AM.", "fact2": "Anna's flight departs at 11:45 AM.", "label": 1, "category": "same fact update (contradiction/supersede)", "subtype": "numeric"}
+{"id": 45, "fact1": "Ravi is vegetarian.", "fact2": "I retract my earlier statement about Ravi's diet.", "label": 2, "category": "retract", "subtype": "withdrawal"}
+{"id": 46, "fact1": "Priya is allergic to peanuts.", "fact2": "The nightly backup job is enabled.", "label": 3, "category": "unrelated entities", "subtype": "unrelated"}
+{"id": 47, "fact1": "In January 2024, the server had 16 GB of RAM.", "fact2": "In January 2025, the server had 64 GB of RAM.", "label": 4, "category": "temporal change", "subtype": "explicit_time_scopes"}
+{"id": 48, "fact1": "The shop is closed on Sundays.", "fact2": "The shop does not open on Sundays.", "label": 6, "category": "paraphrase (not a contradiction)", "subtype": "reworded"}
+{"id": 49, "fact1": "The Treaty of Versailles was signed in 1919.", "fact2": "The Treaty of Versailles ended World War I.", "label": 0, "category": "compatible additions", "subtype": "different_attribute"}
+{"id": 50, "fact1": "The database server has 16 GB of RAM.", "fact2": "The database server has 64 GB of RAM.", "label": 1, "category": "same fact update (contradiction/supersede)", "subtype": "numeric"}
+{"id": 51, "fact1": "The project deadline is 14 March.", "fact2": "Disregard the 14 March deadline; it was never confirmed.", "label": 2, "category": "retract", "subtype": "withdrawal"}
+{"id": 52, "fact1": "Water boils at 100\u00b0C at sea level.", "fact2": "The sky is blue.", "label": 3, "category": "unrelated entities", "subtype": "unrelated"}
+{"id": 53, "fact1": "During 2022, Priya's manager was Carlos.", "fact2": "During 2024, Priya's manager was Elena.", "label": 4, "category": "temporal change", "subtype": "explicit_time_scopes"}
+{"id": 54, "fact1": "The team has 8 engineers.", "fact2": "There are eight engineers on the team.", "label": 6, "category": "paraphrase (not a contradiction)", "subtype": "reworded"}
+{"id": 55, "fact1": "Anna's flight departs at 9:30 AM.", "fact2": "Anna's flight lands at 12:15 PM.", "label": 0, "category": "compatible additions", "subtype": "different_attribute"}
+{"id": 56, "fact1": "Tom's monthly rent is $1,200.", "fact2": "Tom's monthly rent is $1,450.", "label": 1, "category": "same fact update (contradiction/supersede)", "subtype": "numeric"}
+{"id": 57, "fact1": "The API requires authentication.", "fact2": "Cancel that: the earlier statement about API authentication should be removed.", "label": 2, "category": "retract", "subtype": "withdrawal"}
+{"id": 58, "fact1": "Marco lives in Lisbon.", "fact2": "The API requires authentication.", "label": 3, "category": "unrelated entities", "subtype": "unrelated"}
+{"id": 59, "fact1": "On Monday, the build was passing.", "fact2": "On Friday, the build was failing.", "label": 4, "category": "temporal change", "subtype": "explicit_time_scopes"}
+{"id": 60, "fact1": "Ravi is vegetarian.", "fact2": "Ravi follows a vegetarian diet.", "label": 6, "category": "paraphrase (not a contradiction)", "subtype": "reworded"}
+{"id": 61, "fact1": "The project's primary language is Python.", "fact2": "The project uses PostgreSQL for storage.", "label": 0, "category": "compatible additions", "subtype": "different_attribute"}
+{"id": 62, "fact1": "The team has 8 engineers.", "fact2": "The team has 12 engineers.", "label": 1, "category": "same fact update (contradiction/supersede)", "subtype": "numeric"}
+{"id": 63, "fact1": "Lena's favorite editor is Neovim.", "fact2": "The cache TTL is 10 minutes.", "label": 3, "category": "unrelated entities", "subtype": "unrelated"}
+{"id": 64, "fact1": "The Treaty of Versailles was signed in 1919.", "fact2": "In 1919, the Treaty of Versailles was signed.", "label": 6, "category": "paraphrase (not a contradiction)", "subtype": "reworded"}
+{"id": 65, "fact1": "Lena uses Windows as her main operating system.", "fact2": "Lena's favorite editor is Neovim.", "label": 0, "category": "compatible additions", "subtype": "different_attribute"}
+{"id": 66, "fact1": "The Treaty of Versailles was signed in 1919.", "fact2": "The Treaty of Versailles was signed in 1918.", "label": 1, "category": "same fact update (contradiction/supersede)", "subtype": "numeric"}
+{"id": 67, "fact1": "The cable is 1 meter long.", "fact2": "The cable is 100 centimeters long.", "label": 6, "category": "paraphrase (not a contradiction)", "subtype": "unit_equivalent"}
+{"id": 68, "fact1": "Mount Everest is 8,848 meters tall.", "fact2": "Mount Everest is located in the Himalayas.", "label": 0, "category": "compatible additions", "subtype": "different_attribute"}
+{"id": 69, "fact1": "The request timeout is 30 seconds.", "fact2": "The request timeout is 30 minutes.", "label": 1, "category": "same fact update (contradiction/supersede)", "subtype": "unit"}
+{"id": 70, "fact1": "The cache TTL is 1 hour.", "fact2": "The cache TTL is 60 minutes.", "label": 6, "category": "paraphrase (not a contradiction)", "subtype": "unit_equivalent"}
+{"id": 71, "fact1": "Dana's manager is Carlos.", "fact2": "Dana joined the company in 2021.", "label": 0, "category": "compatible additions", "subtype": "different_attribute"}
+{"id": 72, "fact1": "The upload limit is 50 MB.", "fact2": "The upload limit is 50 GB.", "label": 1, "category": "same fact update (contradiction/supersede)", "subtype": "unit"}
+{"id": 73, "fact1": "The trail is 5 kilometers long.", "fact2": "The trail is 5,000 meters long.", "label": 6, "category": "paraphrase (not a contradiction)", "subtype": "unit_equivalent"}
+{"id": 74, "fact1": "The trail is 12 kilometers long.", "fact2": "The trail has an elevation gain of 400 meters.", "label": 0, "category": "compatible additions", "subtype": "different_attribute"}
+{"id": 75, "fact1": "The trail is 12 kilometers long.", "fact2": "The trail is 12 miles long.", "label": 1, "category": "same fact update (contradiction/supersede)", "subtype": "unit"}
+{"id": 76, "fact1": "The package weighs 2 kilograms.", "fact2": "The package weighs 2 grams.", "label": 1, "category": "same fact update (contradiction/supersede)", "subtype": "unit"}
+{"id": 77, "fact1": "The cache TTL is 10 minutes.", "fact2": "The cache TTL is 10 hours.", "label": 1, "category": "same fact update (contradiction/supersede)", "subtype": "unit"}
+{"id": 78, "fact1": "Water boils at 100\u00b0C at sea level.", "fact2": "Water boils at 100\u00b0F at sea level.", "label": 1, "category": "same fact update (contradiction/supersede)", "subtype": "unit"}
+{"id": 79, "fact1": "The capital of France is Paris.", "fact2": "The capital of France is Berlin.", "label": 1, "category": "same fact update (contradiction/supersede)", "subtype": "value_swap"}
+{"id": 80, "fact1": "The project's primary language is Python.", "fact2": "The project's primary language is Rust.", "label": 1, "category": "same fact update (contradiction/supersede)", "subtype": "value_swap"}
+{"id": 81, "fact1": "Dana's manager is Carlos.", "fact2": "Dana's manager is Elena.", "label": 1, "category": "same fact update (contradiction/supersede)", "subtype": "value_swap"}
+{"id": 82, "fact1": "The nightly backup job is enabled.", "fact2": "The nightly backup job is disabled.", "label": 1, "category": "same fact update (contradiction/supersede)", "subtype": "value_swap"}
+{"id": 83, "fact1": "The Earth orbits the Sun.", "fact2": "The Sun orbits the Earth.", "label": 1, "category": "same fact update (contradiction/supersede)", "subtype": "value_swap"}

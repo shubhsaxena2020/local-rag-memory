@@ -1,0 +1,9 @@
+# Requirements for SQLite storage layer probe
+# This is optional; the storage layer works with just sqlite3 (built-in)
+# For vector search acceleration, you can install sqlite-vec
+# For numpy fallback, install numpy
+
+# Core dependencies (none beyond standard library)
+# Optional dependencies for enhanced performance
+sqlite-vec>=0.1.0
+numpy>=1.24.0

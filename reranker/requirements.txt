@@ -1,0 +1,5 @@
+# Runtime dependencies for the Windows ONNX cross-encoder reranker.
+# Install into the project venv; onnxruntime-directml replaces onnxruntime.
+onnxruntime-directml==1.24.4
+tokenizers>=0.15
+numpy>=1.24
